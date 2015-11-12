@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PlannerPatrickV.iml" filepath="$PROJECT_DIR$/PlannerPatrickV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PlannerPatrickV3.iml" filepath="$PROJECT_DIR$/PlannerPatrickV3.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/plannerlib/plannerlib.iml" filepath="$PROJECT_DIR$/plannerlib/plannerlib.iml" />
     </modules>
