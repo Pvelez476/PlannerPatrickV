@@ -16,6 +16,11 @@ public class PlanLib {
         System.out.println("Calendar's Year: " + cal.get(Calendar.YEAR));
         System.out.println("Calendar's Month: " + cal.get(Calendar.MONTH));
         System.out.println("Calendar's Day: " + cal.get(Calendar.DATE));
+
+        //Code to call Time.
+        System.out.println("The Hour is: " + cal.get(Calendar.HOUR_OF_DAY));
+        System.out.println("The Minute is: " + cal.get(Calendar.MINUTE));
+        System.out.println("The Second is: " + cal.get(Calendar.SECOND));
         //////////////////////////////////////////////////////////////////
 
 
@@ -62,4 +67,3 @@ public class PlanLib {
     }
 
 }
-
