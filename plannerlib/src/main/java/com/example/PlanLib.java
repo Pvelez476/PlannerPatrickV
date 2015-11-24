@@ -1,6 +1,8 @@
 package com.example;
 
-import java.util.*;
+import java.util.Calendar;
+import java.util.Timer;
+
 
 
 public class PlanLib {
@@ -16,11 +18,17 @@ public class PlanLib {
         System.out.println("Calendar's Year: " + cal.get(Calendar.YEAR));
         System.out.println("Calendar's Month: " + cal.get(Calendar.MONTH));
         System.out.println("Calendar's Day: " + cal.get(Calendar.DATE));
+
+        //Code to call Time.
+        System.out.println("The Hour is: " + cal.get(Calendar.HOUR_OF_DAY));
+        System.out.println("The Minute is: " + cal.get(Calendar.MINUTE));
+        System.out.println("The Second is: " + cal.get(Calendar.SECOND));
         //////////////////////////////////////////////////////////////////
 
 
 
-        //Ints to represent the days.
+
+    //Ints to represent the days.
         int sunday = 1;
         int monday = 2;
         int tuesday = 3;
@@ -62,4 +70,3 @@ public class PlanLib {
     }
 
 }
-
