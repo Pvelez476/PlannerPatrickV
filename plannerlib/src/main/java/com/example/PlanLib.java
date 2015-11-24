@@ -1,6 +1,8 @@
 package com.example;
 
-import java.util.*;
+import java.util.Calendar;
+import java.util.Timer;
+
 
 
 public class PlanLib {
@@ -25,7 +27,8 @@ public class PlanLib {
 
 
 
-        //Ints to represent the days.
+
+    //Ints to represent the days.
         int sunday = 1;
         int monday = 2;
         int tuesday = 3;
