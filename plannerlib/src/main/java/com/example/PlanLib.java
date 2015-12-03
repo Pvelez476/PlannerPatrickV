@@ -60,7 +60,7 @@ public class PlanLib {
                         System.out.println("");
 
 
-                        System.out.println("You will complete:  "  +  task  +   " On: " +  time  + " At " +  time  +  " ......Or else! ");
+                        System.out.println("You will complete:  "  +  task  +   " On: " +  words  + " At " +  time  +  " ......Or else! ");
                         start = 1;
                     }
 
