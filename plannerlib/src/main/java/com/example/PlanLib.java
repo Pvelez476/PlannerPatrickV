@@ -1,8 +1,8 @@
 package com.example;
 
 import java.util.Calendar;
-import java.util.Timer;
 
+import java.util.Scanner;
 
 
 public class PlanLib {
@@ -11,60 +11,40 @@ public class PlanLib {
     public static void main(String[] args) {
 
 
+
+        int start = 0;
+        System.out.println("Enter the Day:");
+        Scanner inputFromUser = new Scanner (System.in);
+        int finish;
+        if (inputFromUser.hasNextLine()){
+
+             finish = inputFromUser.nextInt();
+            System.out.println("Enter the time");
+        }else{
+             finish =1;
+            System.out.println("Error");
+        }
+
+        Scanner inputWords = new Scanner(System.in);
+        String words = inputWords.nextLine();
+        while (start < finish) {
+            System.out.println(words);
+            start +=1;
+        }
+
         //Code to call Calendar.
-        Calendar cal = Calendar.getInstance();
+       // Calendar cal = Calendar.getInstance();
 
 
-        System.out.println("Calendar's Year: " + cal.get(Calendar.YEAR));
-        System.out.println("Calendar's Month: " + cal.get(Calendar.MONTH));
-        System.out.println("Calendar's Day: " + cal.get(Calendar.DATE));
+       // System.out.println("Calendar's Year: " + cal.get(Calendar.YEAR));
+       // System.out.println("Calendar's Month: " + cal.get(Calendar.MONTH));
+       // System.out.println("Calendar's Day: " + cal.get(Calendar.DATE));
 
-        //Code to call Time.
-        System.out.println("The Hour is: " + cal.get(Calendar.HOUR_OF_DAY));
-        System.out.println("The Minute is: " + cal.get(Calendar.MINUTE));
-        System.out.println("The Second is: " + cal.get(Calendar.SECOND));
+       // Code to call Time.
+       // System.out.println("The Hour is: " + cal.get(Calendar.HOUR_OF_DAY));
+       // System.out.println("The Minute is: " + cal.get(Calendar.MINUTE));
+       // System.out.println("The Second is: " + cal.get(Calendar.SECOND));
         //////////////////////////////////////////////////////////////////
-
-
-
-
-    //Ints to represent the days.
-        int sunday = 1;
-        int monday = 2;
-        int tuesday = 3;
-        int wednesday = 4;
-        int thursday = 5;
-        int friday = 6;
-        int saturday = 7;
-
-        //If Statements to call days.
-        if (sunday >= 1) {
-            System.out.println("Sunday");
-        }
-
-        if (monday >= 2) {
-            System.out.println("Monday");
-        }
-
-        if (tuesday >= 3) {
-            System.out.println("Tuesday");
-        }
-
-        if (wednesday >= 4) {
-            System.out.println("Wednesday");
-        }
-
-        if (thursday >= 5) {
-            System.out.println("Thursday");
-        }
-
-        if (friday >= 6) {
-            System.out.println("Friday");
-        }
-
-        if (saturday >= 7) {
-            System.out.println("Saturday");
-        }
 
 
     }
